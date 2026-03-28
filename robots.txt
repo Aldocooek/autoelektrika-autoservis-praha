@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://autoelektrika-autoservis-praha.vercel.app/sitemap.xml
