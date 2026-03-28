@@ -1,0 +1,22 @@
+{
+  "name": "autoelektrika-autoservis-praha",
+  "version": "1.0.0",
+  "description": "Statický web pro Autoelektrika-autoservis Praha — autoelektrika, diagnostika, servis klimatizace, příprava na STK.",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve . -p 3000 --no-clipboard",
+    "preview": "npx serve . -p 3000",
+    "validate": "npx html-validate index.html"
+  },
+  "keywords": [
+    "autoelektrika",
+    "autoservis",
+    "Praha",
+    "staticky-web"
+  ],
+  "author": "Autoelektrika-autoservis Praha",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=18"
+  }
+}
