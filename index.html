@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
   <!-- Primary SEO -->
-  <title>Autoelektrika &amp; Autoservis Praha — 5 hvězd, férové ceny | V Bokách I</title>
-  <meta name="description" content="Autoelektrika a autoservis Praha s hodnocením 5.0 ⭐ (40 recenzí). Diagnostika, opravy elektroinstalace, servis klimatizace, příprava na STK. Férové ceny. Volejte +420 775 104 074." />
+  <title>Autoelektrika &amp; Autoservis Praha — 5.0 hvězd, férové ceny | V Bokách I</title>
+  <meta name="description" content="Autoelektrika a autoservis Praha s hodnocením 5.0 (40 recenzí). Diagnostika, opravy elektroinstalace, mechanický servis. Zbytečně neprodražujeme. Volejte +420 775 104 074." />
   <meta name="keywords" content="autoelektrika Praha, autoservis Praha, diagnostika auta Praha, oprava elektroinstalace auto, servis klimatizace auto Praha, příprava na STK Praha" />
   <link rel="canonical" href="https://autoelektrika-autoservis-praha.vercel.app/" />
   <meta name="robots" content="index, follow" />
@@ -16,20 +16,15 @@
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://autoelektrika-autoservis-praha.vercel.app/" />
-  <meta property="og:title" content="Autoelektrika &amp; Autoservis Praha — 5 hvězd, férové ceny" />
-  <meta property="og:description" content="Autoelektrika a autoservis Praha s hodnocením 5.0 ⭐ (40 recenzí). Diagnostika, opravy, servis klimatizace, příprava na STK. Férové ceny — zbytečně neprodražujeme!" />
+  <meta property="og:title" content="Autoelektrika &amp; Autoservis Praha — 5.0 hvězd, férové ceny" />
+  <meta property="og:description" content="Autoelektrika a autoservis Praha, hodnocení 5.0 (40 recenzí). Zbytečně neprodražujeme. +420 775 104 074." />
   <meta property="og:locale" content="cs_CZ" />
   <meta property="og:site_name" content="Autoelektrika-autoservis Praha" />
 
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Autoelektrika &amp; Autoservis Praha — 5 hvězd, férové ceny" />
-  <meta name="twitter:description" content="5.0 hvězd na Google (40 recenzí). Diagnostika, opravy, STK příprava. Volejte +420 775 104 074." />
-
-  <!-- Google Fonts -->
+  <!-- Google Fonts: Outfit only -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="style.css" />
@@ -40,7 +35,7 @@
     "@context": "https://schema.org",
     "@type": "AutoRepair",
     "name": "Autoelektrika-autoservis Praha",
-    "description": "Autoelektrika a autoservis v Praze. Diagnostika, opravy elektroinstalace, servis klimatizace, příprava na STK. Férové ceny, hodnocení 5.0 hvězd.",
+    "description": "Autoelektrika a autoservis v Praze. Diagnostika, opravy elektroinstalace, mechanický servis. Férové ceny, hodnocení 5.0 hvězd.",
     "url": "https://autoelektrika-autoservis-praha.vercel.app/",
     "telephone": "+420775104074",
     "address": {
@@ -49,525 +44,299 @@
       "addressLocality": "Praha",
       "addressCountry": "CZ"
     },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": "50.0755",
-      "longitude": "14.4378"
-    },
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
         "opens": "09:00",
-        "closes": "18:00"
+        "closes": "17:00"
       }
     ],
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "5.0",
       "reviewCount": "40",
-      "bestRating": "5",
-      "worstRating": "1"
-    },
-    "priceRange": "$$",
-    "areaServed": {
-      "@type": "City",
-      "name": "Praha"
-    },
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Služby autoservisu",
-      "itemListElement": [
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Autoservis"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Autoelektrika"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Diagnostika vozidla"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Opravy elektroinstalace"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Servis klimatizace"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Příprava na STK"}}
-      ]
+      "bestRating": "5"
     }
   }
   </script>
 </head>
 <body>
 
-  <!-- ==================== HEADER / NAV ==================== -->
-  <header class="site-header" role="banner">
+  <!-- MOBILE STICKY CALL BUTTON -->
+  <a href="tel:+420775104074" class="sticky-call" aria-label="Zavolat autoservisu">
+    <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.14 6.14l1.79-1.79a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/>
+    </svg>
+    Zavolat nyní
+  </a>
+
+  <!-- HEADER -->
+  <header class="site-header">
     <div class="container header-inner">
-      <a href="#hero" class="logo" aria-label="Autoelektrika-autoservis Praha — domů">
-        <span class="logo-icon" aria-hidden="true">
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="32" height="32" rx="8" fill="#22c55e"/>
-            <path d="M7 22l3-8h12l3 8H7z" fill="white" opacity="0.9"/>
-            <rect x="9" y="22" width="3" height="4" rx="1.5" fill="white"/>
-            <rect x="20" y="22" width="3" height="4" rx="1.5" fill="white"/>
-            <path d="M10 18h12" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
-            <circle cx="16" cy="13" r="3" fill="white" opacity="0.7"/>
-            <path d="M14 13l1.5 1.5L19 11" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <div class="logo">
+        <span class="logo-main">Autoelektrika</span>
+        <span class="logo-amp">&amp;</span>
+        <span class="logo-sub">Autoservis Praha</span>
+      </div>
+      <nav class="header-nav" aria-label="Hlavní navigace">
+        <a href="#sluzby">Služby</a>
+        <a href="#kontakt">Kontakt</a>
+        <a href="tel:+420775104074" class="nav-cta">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.14 6.14l1.79-1.79a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/>
           </svg>
-        </span>
-        <span class="logo-text">Autoelektrika<span class="logo-accent">Praha</span></span>
-      </a>
-      <nav class="main-nav" role="navigation" aria-label="Hlavní navigace">
-        <ul>
-          <li><a href="#sluzby">Služby</a></li>
-          <li><a href="#proc-my">Proč my</a></li>
-          <li><a href="#recenze">Recenze</a></li>
-          <li><a href="#kontakt">Kontakt</a></li>
-        </ul>
+          775 104 074
+        </a>
       </nav>
-      <a href="tel:+420775104074" class="btn btn-primary btn-sm header-cta" aria-label="Zavolat +420 775 104 074">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-        Zavolat
-      </a>
-      <button class="hamburger" id="hamburger" aria-label="Otevřít menu" aria-expanded="false" aria-controls="mobile-nav">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-    <div class="mobile-nav" id="mobile-nav" role="dialog" aria-label="Mobilní navigace" hidden>
-      <ul>
-        <li><a href="#sluzby" class="mobile-nav-link">Služby</a></li>
-        <li><a href="#proc-my" class="mobile-nav-link">Proč my</a></li>
-        <li><a href="#recenze" class="mobile-nav-link">Recenze</a></li>
-        <li><a href="#kontakt" class="mobile-nav-link">Kontakt</a></li>
-        <li><a href="tel:+420775104074" class="btn btn-primary mobile-nav-cta">Zavolat nyní</a></li>
-      </ul>
     </div>
   </header>
 
-  <main id="main-content">
+  <!-- ─────────────── HERO ─────────────── -->
+  <section class="hero" aria-labelledby="hero-h1">
+    <!-- Massive background 5.0 number — the design story -->
+    <div class="hero-bg-score" aria-hidden="true">5.0</div>
+    <!-- Dot grid texture -->
+    <div class="dot-grid" aria-hidden="true"></div>
 
-    <!-- ==================== HERO ==================== -->
-    <section class="hero" id="hero" aria-labelledby="hero-heading">
-      <div class="hero-bg" aria-hidden="true"></div>
-      <div class="container hero-content">
-        <div class="hero-badge" aria-label="Hodnocení 5.0 hvězd na Google">
-          <span class="stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-          <span class="badge-text">5.0 na Google &mdash; 40 recenzí</span>
-        </div>
-        <h1 id="hero-heading">Autoelektrika &amp; Autoservis Praha &mdash; 5&nbsp;hvězd, férové ceny</h1>
-        <p class="hero-sub">Elektrika auta, diagnostika, servis klimatizace, příprava na&nbsp;STK. <strong>Zbytečně servis neprodražujeme</strong> &mdash; platíte jen za to, co&nbsp;opravdu potřebujete.</p>
-        <div class="hero-actions">
-          <a href="tel:+420775104074" class="btn btn-primary btn-lg" aria-label="Zavolat na číslo +420 775 104 074">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-            +420 775 104 074
-          </a>
-          <a href="#sluzby" class="btn btn-outline btn-lg">Naše služby</a>
-        </div>
-        <div class="hero-stats" role="list">
-          <div class="stat" role="listitem">
-            <span class="stat-num">5.0</span>
-            <span class="stat-label">Hodnocení Google</span>
-          </div>
-          <div class="stat-divider" aria-hidden="true"></div>
-          <div class="stat" role="listitem">
-            <span class="stat-num">40+</span>
-            <span class="stat-label">Spokojených recenzí</span>
-          </div>
-          <div class="stat-divider" aria-hidden="true"></div>
-          <div class="stat" role="listitem">
-            <span class="stat-num">Po&ndash;Pá</span>
-            <span class="stat-label">od&nbsp;9:00</span>
-          </div>
-        </div>
+    <div class="container hero-inner">
+
+      <div class="hero-eyebrow">
+        <span class="hero-badge">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+          </svg>
+          5.0 · 40 recenzí Google
+        </span>
+        <span class="hero-location">V Bokách I, Praha</span>
       </div>
-    </section>
 
-    <!-- ==================== SERVICES ==================== -->
-    <section class="services" id="sluzby" aria-labelledby="services-heading">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-tag">Co děláme</span>
-          <h2 id="services-heading">Naše služby</h2>
-          <p class="section-desc">Kompletní péče o váš vůz &mdash; od elektroinstalace po přípravu na technickou.</p>
-        </div>
-        <div class="services-grid" role="list">
+      <h1 id="hero-h1" class="hero-heading">
+        Servis bez<br />
+        zbytečných<br />
+        <em>příplatků.</em>
+      </h1>
 
-          <article class="service-card" role="listitem">
-            <div class="service-icon" aria-hidden="true">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93l-1.41 1.41M5.34 5.34L3.93 6.75M12 2v2M12 20v2M4.93 4.93l1.41 1.41M18.66 18.66l1.41 1.41M2 12h2M20 12h2M19.07 19.07l-1.41-1.41M5.34 18.66L3.93 17.25"/></svg>
-            </div>
-            <h3>Autoelektrika</h3>
-            <p>Opravy a diagnostika veškeré elektroinstalace vozidla. Světla, pojistky, kabely, dobíjení, startér, alternátor &mdash; vše rychle a spolehlivě.</p>
-          </article>
+      <p class="hero-sub">
+        Mechanika i elektroinstalace pod jednou střechou.<br class="br-desktop" />
+        Poctivá práce. Poctivá cena.
+      </p>
 
-          <article class="service-card" role="listitem">
-            <div class="service-icon" aria-hidden="true">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/><line x1="12" y1="12" x2="12" y2="16"/><line x1="10" y1="14" x2="14" y2="14"/></svg>
-            </div>
-            <h3>Autoservis</h3>
-            <p>Kompletní servis osobních vozidel. Výměna oleje, brzdy, odpružení, rozvody, spojka &mdash; vše s odbornou péčí a bez zbytečného prodražování.</p>
-          </article>
-
-          <article class="service-card" role="listitem">
-            <div class="service-icon" aria-hidden="true">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
-            </div>
-            <h3>Diagnostika vozidla</h3>
-            <p>Profesionální počítačová diagnostika chybových kódů. Přesná identifikace závady bez hádání &mdash; ušetříte čas i peníze díky přesnému výsledku.</p>
-          </article>
-
-          <article class="service-card" role="listitem">
-            <div class="service-icon" aria-hidden="true">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
-            </div>
-            <h3>Opravy elektroinstalace</h3>
-            <p>Hledání a oprava zkratů, přerušených obvodů a poškozené kabeláže. Používáme moderní vybavení pro rychlou lokalizaci závady.</p>
-          </article>
-
-          <article class="service-card" role="listitem">
-            <div class="service-icon" aria-hidden="true">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 8l4 4-4 4M3 12h18"/><path d="M3 6h4l2-4 4 8 2-4h4"/></svg>
-            </div>
-            <h3>Servis klimatizace</h3>
-            <p>Plnění, čištění a opravy klimatizace. Správně fungující klimatizace = komfort v létě i v zimě. Servis provádíme certifikovaně.</p>
-          </article>
-
-          <article class="service-card service-card--highlight" role="listitem">
-            <div class="service-icon" aria-hidden="true">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-            </div>
-            <h3>Příprava na STK</h3>
-            <p>Kompletní kontrola vozu před technickou. Odhalíme závady předem, opravíme je &mdash; a na STK přijedete připraveni bez obav z neúspěchu.</p>
-            <span class="service-badge">Oblíbená služba</span>
-          </article>
-
-        </div>
-        <div class="services-cta">
-          <p>Potřebujete jinou opravu? Zavolejte &mdash; poradíme.</p>
-          <a href="tel:+420775104074" class="btn btn-primary btn-lg">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-            Zavolat a domluvit termín
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ==================== WHY US ==================== -->
-    <section class="why-us" id="proc-my" aria-labelledby="why-heading">
-      <div class="container">
-        <div class="section-header section-header--light">
-          <span class="section-tag section-tag--light">Proč nás zákazníci doporučují</span>
-          <h2 id="why-heading">Dokonalých 5.0 hvězd &mdash; ne náhodou</h2>
-          <p class="section-desc section-desc--light">40 zákazníků nám dalo maximální hodnocení. Tady je proč.</p>
-        </div>
-
-        <div class="why-rating-showcase" aria-label="Hodnocení 5.0 hvězd z 5 na základě 40 recenzí">
-          <div class="rating-big">
-            <span class="rating-number" aria-hidden="true">5.0</span>
-            <div class="rating-stars-big" aria-hidden="true">
-              &#9733;&#9733;&#9733;&#9733;&#9733;
-            </div>
-            <span class="rating-source">Google recenze</span>
-            <span class="rating-count">40 hodnocení</span>
-          </div>
-        </div>
-
-        <div class="why-grid" role="list">
-          <div class="why-card" role="listitem">
-            <div class="why-icon" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
-            </div>
-            <h3>Férové ceny</h3>
-            <p>Zbytečně servis neprodražujeme. Platíte přesně za to, co váš vůz potřebuje &mdash; nic navíc. Cenu vždy sdělíme předem.</p>
-          </div>
-          <div class="why-card" role="listitem">
-            <div class="why-icon" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-            </div>
-            <h3>Odbornost a zkušenosti</h3>
-            <p>Specializujeme se na autoelektriku &mdash; oblast, kde většina servisů tápě. Závadu najdeme a opravíme napoprvé.</p>
-          </div>
-          <div class="why-card" role="listitem">
-            <div class="why-icon" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-            </div>
-            <h3>Rychlé termíny</h3>
-            <p>Nečekáte týdny. Snažíme se vyjít vstříc co nejdříve, aby váš vůz byl zpět v provozu bez zbytečných průtahů.</p>
-          </div>
-          <div class="why-card" role="listitem">
-            <div class="why-icon" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
-            </div>
-            <h3>Lidský přístup</h3>
-            <p>Vysvětlíme vše srozumitelně. Žádný technický žargon &mdash; vždy víte, co se s vaším autem děje a kolik to bude stát.</p>
-          </div>
-          <div class="why-card" role="listitem">
-            <div class="why-icon" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-            </div>
-            <h3>Práce napoprvé správně</h3>
-            <p>Precizní diagnostika znamená, že opravu nemusíte opakovat. Zákazníci se k nám vrací, protože víme proč &mdash; děláme to dobře.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ==================== REVIEWS ==================== -->
-    <section class="reviews" id="recenze" aria-labelledby="reviews-heading">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-tag">Co říkají zákazníci</span>
-          <h2 id="reviews-heading">Recenze na Google</h2>
-          <p class="section-desc">Reálné zkušenosti zákazníků &mdash; 100% ověřeno na Google.</p>
-        </div>
-        <div class="reviews-grid" role="list">
-
-          <article class="review-card review-card--featured" role="listitem">
-            <div class="review-header">
-              <div class="reviewer-avatar" aria-hidden="true">P</div>
-              <div class="reviewer-info">
-                <strong class="reviewer-name">Pavel K.</strong>
-                <span class="review-source">Google recenze</span>
-              </div>
-              <div class="review-stars" aria-label="Hodnocení 5 z 5 hvězd">
-                <span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-              </div>
-            </div>
-            <blockquote class="review-text">
-              <p>"Zbytečně servis neprodražuje!!! Přijel jsem s problémem na elektrice, pan mechanik vše rychle diagnostikoval a opravil za férovou cenu. Rozhodně doporučuji &mdash; konečně servis, kde vás neodřou."</p>
-            </blockquote>
-            <div class="review-verified" aria-label="Ověřená recenze">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-              Ověřená recenze Google
-            </div>
-          </article>
-
-          <article class="review-card" role="listitem">
-            <div class="review-header">
-              <div class="reviewer-avatar" aria-hidden="true">M</div>
-              <div class="reviewer-info">
-                <strong class="reviewer-name">Martin S.</strong>
-                <span class="review-source">Google recenze</span>
-              </div>
-              <div class="review-stars" aria-label="Hodnocení 5 z 5 hvězd">
-                <span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-              </div>
-            </div>
-            <blockquote class="review-text">
-              <p>"Skvělý servis, profesionální přístup. Problém s elektrikou auta, který ostatní servisy nedokázali najít, byl u nich vyřešen do pár hodin. Cena naprosto odpovídající."</p>
-            </blockquote>
-            <div class="review-verified">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-              Ověřená recenze Google
-            </div>
-          </article>
-
-          <article class="review-card" role="listitem">
-            <div class="review-header">
-              <div class="reviewer-avatar" aria-hidden="true">L</div>
-              <div class="reviewer-info">
-                <strong class="reviewer-name">Lucie N.</strong>
-                <span class="review-source">Google recenze</span>
-              </div>
-              <div class="review-stars" aria-label="Hodnocení 5 z 5 hvězd">
-                <span aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-              </div>
-            </div>
-            <blockquote class="review-text">
-              <p>"Příprava na STK proběhla bez komplikací. Vše bylo opraveno předem, na technické jsem prošla na první pokus. Ocenila jsem především upřímnost ohledně toho, co opravdu potřebuje opravit."</p>
-            </blockquote>
-            <div class="review-verified">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-              Ověřená recenze Google
-            </div>
-          </article>
-
-        </div>
-
-        <div class="reviews-summary" aria-label="Celkové hodnocení: 5.0 hvězd, 40 recenzí">
-          <div class="summary-inner">
-            <div class="summary-rating">
-              <span class="summary-num">5.0</span>
-              <span class="summary-stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-            </div>
-            <div class="summary-text">
-              <strong>Průměrné hodnocení na Google</strong>
-              <span>z celkem 40 recenzí</span>
-            </div>
-          </div>
-          <a href="tel:+420775104074" class="btn btn-primary">Staňte se další spokojenou recenzí</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ==================== CONTACT ==================== -->
-    <section class="contact" id="kontakt" aria-labelledby="contact-heading">
-      <div class="container">
-        <div class="section-header">
-          <span class="section-tag">Kontakt</span>
-          <h2 id="contact-heading">Přijeďte nebo zavolejte</h2>
-          <p class="section-desc">Jsme tu pro vás od pondělí do pátku. Termín domluvíte telefonicky.</p>
-        </div>
-        <div class="contact-grid">
-          <div class="contact-info">
-            <div class="contact-item">
-              <div class="contact-icon" aria-hidden="true">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-              </div>
-              <div>
-                <span class="contact-label">Telefon</span>
-                <a href="tel:+420775104074" class="contact-value contact-phone">+420 775 104 074</a>
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="contact-icon" aria-hidden="true">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              </div>
-              <div>
-                <span class="contact-label">Adresa</span>
-                <address class="contact-value">V Bokách I 777/11<br>Praha</address>
-              </div>
-            </div>
-            <div class="contact-item">
-              <div class="contact-icon" aria-hidden="true">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-              </div>
-              <div>
-                <span class="contact-label">Otevírací doba</span>
-                <span class="contact-value">Pondělí &ndash; Pátek<br><strong>od 9:00</strong></span>
-              </div>
-            </div>
-            <a href="tel:+420775104074" class="btn btn-primary btn-lg contact-btn" aria-label="Zavolat na +420 775 104 074">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-              Zavolat nyní: +420 775 104 074
-            </a>
-          </div>
-          <div class="contact-map-placeholder" aria-label="Mapa polohy servisu">
-            <a href="https://maps.google.com/?q=V+Bokách+I+777/11+Praha" target="_blank" rel="noopener noreferrer" class="map-link" aria-label="Otevřít polohu v Google Maps">
-              <div class="map-visual" aria-hidden="true">
-                <div class="map-pin-wrapper">
-                  <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                </div>
-                <p class="map-address">V Bokách I 777/11, Praha</p>
-                <span class="map-cta-text">Kliknutím otevřít Google Maps</span>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <!-- ==================== FOOTER ==================== -->
-  <footer class="site-footer" role="contentinfo">
-    <div class="container footer-inner">
-      <div class="footer-brand">
-        <a href="#hero" class="logo logo--footer" aria-label="Autoelektrika-autoservis Praha — domů">
-          <span class="logo-icon" aria-hidden="true">
-            <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="32" height="32" rx="8" fill="#22c55e"/>
-              <path d="M7 22l3-8h12l3 8H7z" fill="white" opacity="0.9"/>
-              <rect x="9" y="22" width="3" height="4" rx="1.5" fill="white"/>
-              <rect x="20" y="22" width="3" height="4" rx="1.5" fill="white"/>
-              <path d="M10 18h12" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
-              <circle cx="16" cy="13" r="3" fill="white" opacity="0.7"/>
-              <path d="M14 13l1.5 1.5L19 11" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </span>
-          <span class="logo-text">Autoelektrika<span class="logo-accent">Praha</span></span>
+      <div class="hero-ctas">
+        <a href="tel:+420775104074" class="btn-primary">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6.14 6.14l1.79-1.79a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          +420 775 104 074
         </a>
-        <p class="footer-tagline">Zbytečně servis neprodražujeme.</p>
-        <div class="footer-rating" aria-label="Hodnocení 5.0 hvězd na Google">
-          <span class="stars-sm" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-          <span>5.0 Google &mdash; 40 recenzí</span>
+        <a href="#sluzby" class="btn-ghost">Co opravujeme</a>
+      </div>
+
+      <div class="hero-meta">
+        <div class="meta-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="10"/>
+            <polyline points="12 6 12 12 16 14"/>
+          </svg>
+          Po – Pá, od 9:00
         </div>
-      </div>
-      <div class="footer-contact">
-        <h3 class="footer-heading">Kontakt</h3>
-        <ul class="footer-list">
-          <li>
-            <a href="tel:+420775104074" class="footer-link">+420 775 104 074</a>
-          </li>
-          <li>
-            <address>V Bokách I 777/11, Praha</address>
-          </li>
-          <li>Po&ndash;Pá od 9:00</li>
-        </ul>
-      </div>
-      <div class="footer-services">
-        <h3 class="footer-heading">Služby</h3>
-        <ul class="footer-list">
-          <li>Autoelektrika</li>
-          <li>Autoservis</li>
-          <li>Diagnostika vozidla</li>
-          <li>Opravy elektroinstalace</li>
-          <li>Servis klimatizace</li>
-          <li>Příprava na STK</li>
-        </ul>
+        <div class="meta-pill">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/>
+            <circle cx="12" cy="10" r="3"/>
+          </svg>
+          V Bokách I 777/11, Praha
+        </div>
       </div>
     </div>
-    <div class="footer-bottom">
-      <div class="container footer-bottom-inner">
-        <p>&copy; <span id="year"></span> Autoelektrika-autoservis Praha &mdash; V Bokách I 777/11, Praha</p>
-        <p class="footer-legal">Autoservis &middot; Autoelektrika &middot; Praha</p>
+
+    <!-- Floating rating card — anchored bottom-right -->
+    <div class="rating-float" aria-label="Google hodnocení 5.0 hvězdiček na základě 40 recenzí">
+      <div class="rating-float-stars" aria-hidden="true">★★★★★</div>
+      <div class="rating-float-score">5.0</div>
+      <div class="rating-float-meta">40 recenzí · Google</div>
+    </div>
+  </section>
+
+  <!-- ─────────────── DUAL SERVICES ─────────────── -->
+  <section id="sluzby" class="services" aria-labelledby="services-h2">
+    <h2 id="services-h2" class="sr-only">Naše služby</h2>
+
+    <div class="services-split">
+
+      <!-- LEFT: Autoservis -->
+      <div class="service-panel js-fade">
+        <div class="panel-index" aria-hidden="true">01</div>
+
+        <div class="panel-icon" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+          </svg>
+        </div>
+
+        <h3 class="panel-title">Autoservis</h3>
+        <p class="panel-desc">Kompletní mechanický servis osobních i dodávkových vozidel. Motor, brzdy, převodovka — opravíme přesně to, co je potřeba.</p>
+
+        <ul class="panel-list" role="list">
+          <li><span aria-hidden="true">—</span> Opravy motorů a převodovek</li>
+          <li><span aria-hidden="true">—</span> Brzdy, odpružení, geometrie</li>
+          <li><span aria-hidden="true">—</span> Výměna oleje a servisní prohlídky</li>
+          <li><span aria-hidden="true">—</span> Klimatizace a chlazení</li>
+          <li><span aria-hidden="true">—</span> Výfukové systémy</li>
+          <li><span aria-hidden="true">—</span> Příprava na STK</li>
+        </ul>
+      </div>
+
+      <!-- MIDDLE divider -->
+      <div class="services-divider" aria-hidden="true">
+        <div class="divider-line"></div>
+        <div class="divider-amp">&amp;</div>
+        <div class="divider-line"></div>
+      </div>
+
+      <!-- RIGHT: Autoelektrika -->
+      <div class="service-panel service-panel--alt js-fade">
+        <div class="panel-index" aria-hidden="true">02</div>
+
+        <div class="panel-icon" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+          </svg>
+        </div>
+
+        <h3 class="panel-title">Autoelektrika</h3>
+        <p class="panel-desc">Diagnostika a opravy veškerých elektrických systémů vozidla. Moderní přístroje, přesná diagnóza — žádné hádání.</p>
+
+        <ul class="panel-list" role="list">
+          <li><span aria-hidden="true">—</span> Počítačová diagnostika (OBD)</li>
+          <li><span aria-hidden="true">—</span> Akumulátory a alternátory</li>
+          <li><span aria-hidden="true">—</span> Světla, čidla, elektrické obvody</li>
+          <li><span aria-hidden="true">—</span> Startér, zapalování, řídící jednotky</li>
+          <li><span aria-hidden="true">—</span> Montáž tažných zařízení</li>
+          <li><span aria-hidden="true">—</span> Opravy poškozené kabeláže</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ─────────────── QUOTE ─────────────── -->
+  <section class="quote-section" aria-labelledby="quote-h2">
+    <div class="quote-container js-fade">
+      <div class="quote-open" aria-hidden="true">&ldquo;</div>
+      <h2 id="quote-h2" class="sr-only">Co říkají zákazníci</h2>
+      <blockquote class="quote-text">
+        Zbytečně servis<br class="br-desktop" />neprodražuje!!!
+      </blockquote>
+      <div class="quote-stars" aria-label="5 hvězdiček">
+        <span aria-hidden="true">★★★★★</span>
+      </div>
+      <cite class="quote-author">Zákazník · Google recenze</cite>
+      <p class="quote-explain">
+        Nepřidáváme práci navíc. Neopravujeme to, co opravdu opravovat nepotřeba.<br />
+        Přesně proto máme 5.0 hvězdiček od 40 zákazníků.
+      </p>
+    </div>
+  </section>
+
+  <!-- ─────────────── CONTACT ─────────────── -->
+  <section id="kontakt" class="contact" aria-labelledby="contact-h2">
+    <div class="container contact-inner js-fade">
+
+      <div class="contact-left">
+        <h2 id="contact-h2" class="contact-title">
+          Domluvte<br />
+          si termín.
+        </h2>
+        <p class="contact-subtitle">Zavolejte — odpovíme rychle, termín domluvíme ihned.</p>
+        <a href="tel:+420775104074" class="contact-phone-link">
+          +420 775 104 074
+        </a>
+        <a
+          href="https://maps.google.com/?q=V+Bokách+I+777/11+Praha"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-map"
+          aria-label="Zobrazit polohu v Google Maps (otevře nové okno)"
+        >
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/>
+            <circle cx="12" cy="10" r="3"/>
+          </svg>
+          Navigovat v Google Maps
+        </a>
+      </div>
+
+      <div class="contact-right">
+        <div class="info-block">
+          <div class="info-label">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+            </svg>
+            Adresa
+          </div>
+          <div class="info-value">V Bokách I 777/11<br />Praha</div>
+        </div>
+
+        <div class="info-block">
+          <div class="info-label">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+            </svg>
+            Otevírací doba
+          </div>
+          <div class="info-value">Pondělí – Pátek<br />od 9:00</div>
+        </div>
+
+        <div class="info-block info-block--accent">
+          <div class="info-label">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+            </svg>
+            Hodnocení
+          </div>
+          <div class="info-value">
+            5.0 ★
+            <small>40 Google recenzí</small>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-name">Autoelektrika &amp; Autoservis Praha</div>
+      <div class="footer-row">
+        <span>V Bokách I 777/11, Praha</span>
+        <span class="footer-sep" aria-hidden="true">·</span>
+        <a href="tel:+420775104074">+420 775 104 074</a>
+        <span class="footer-sep" aria-hidden="true">·</span>
+        <span>Po–Pá od 9:00</span>
       </div>
     </div>
   </footer>
 
-  <!-- Floating CTA (mobile) -->
-  <div class="floating-cta" aria-label="Rychlé volání" role="complementary">
-    <a href="tel:+420775104074" class="floating-btn" aria-label="Zavolat na +420 775 104 074">
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-      <span>Zavolat</span>
-    </a>
-  </div>
-
   <script>
-    // Year
-    document.getElementById('year').textContent = new Date().getFullYear();
-
-    // Hamburger
-    const hamburger = document.getElementById('hamburger');
-    const mobileNav = document.getElementById('mobile-nav');
-    hamburger.addEventListener('click', function () {
-      const isOpen = !mobileNav.hidden;
-      mobileNav.hidden = isOpen;
-      hamburger.setAttribute('aria-expanded', String(!isOpen));
-      hamburger.classList.toggle('is-active', !isOpen);
-      document.body.style.overflow = isOpen ? '' : 'hidden';
-    });
-
-    // Close mobile nav on link click
-    document.querySelectorAll('.mobile-nav-link, .mobile-nav-cta').forEach(function (link) {
-      link.addEventListener('click', function () {
-        mobileNav.hidden = true;
-        hamburger.setAttribute('aria-expanded', 'false');
-        hamburger.classList.remove('is-active');
-        document.body.style.overflow = '';
-      });
-    });
-
-    // Smooth scroll for anchor links
-    document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
-      anchor.addEventListener('click', function (e) {
-        var target = document.querySelector(this.getAttribute('href'));
-        if (target) {
-          e.preventDefault();
-          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
-      });
-    });
-
-    // Sticky header shadow
-    var header = document.querySelector('.site-header');
-    window.addEventListener('scroll', function () {
-      header.classList.toggle('scrolled', window.scrollY > 10);
-    });
-
-    // Intersection Observer for fade-in animations
-    var observer = new IntersectionObserver(function (entries) {
-      entries.forEach(function (entry) {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-        }
-      });
-    }, { threshold: 0.1 });
-
-    document.querySelectorAll('.service-card, .why-card, .review-card').forEach(function (el) {
-      observer.observe(el);
-    });
+    // Subtle fade-in on scroll — once only
+    (function () {
+      var els = document.querySelectorAll('.js-fade');
+      if (!window.IntersectionObserver) {
+        els.forEach(function (el) { el.classList.add('is-visible'); });
+        return;
+      }
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            io.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
+      els.forEach(function (el) { io.observe(el); });
+    })();
   </script>
 </body>
 </html>
