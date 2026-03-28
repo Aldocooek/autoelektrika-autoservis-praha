@@ -931,6 +931,7 @@ body {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 
   .js-fade {
@@ -942,16 +943,9 @@ body {
 /* ─── PRINT ──────────────────────────────────────────────── */
 
 @media print {
-  .sticky-call,
-  .site-header,
-  .hero-bg-score,
-  .dot-grid,
-  .rating-float {
-    display: none !important;
-  }
-
-  body {
-    background: white;
-    color: black;
-  }
+  .sticky-call, .wa-float, .site-header, .hero-bg-score, .dot-grid, .rating-float, #cookie-bar, iframe, [style*="position:fixed"] { display: none !important; }
+  body { color: #000 !important; background: #fff !important; font-size: 12pt; }
+  a[href^="tel:"]::after { content: " (" attr(href) ")"; font-size: 10pt; }
+  .hero { min-height: auto !important; padding: 20px 0 !important; }
+  section { break-inside: avoid; }
 }
