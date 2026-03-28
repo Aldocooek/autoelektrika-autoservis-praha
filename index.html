@@ -61,7 +61,8 @@
       "ratingValue": "5.0",
       "reviewCount": "40",
       "bestRating": "5"
-    }
+    },
+    "priceRange": "$$"
   }
   </script>
 </head>
@@ -320,8 +321,29 @@
         <span class="footer-sep" aria-hidden="true">·</span>
         <span>Po–Pá od 9:00</span>
       </div>
+      <div class="footer-row" style="margin-top:6px;font-size:12px;opacity:.6">
+        <span>&copy; <script>document.write(new Date().getFullYear())</script> Autoelektrika &amp; Autoservis Praha</span>
+        <span class="footer-sep" aria-hidden="true">·</span>
+        <span>IČO: na vyžádání</span>
+        <span class="footer-sep" aria-hidden="true">·</span>
+        <a href="privacy.html" style="color:inherit;text-decoration:underline">Ochrana osobních údajů</a>
+        <span class="footer-sep" aria-hidden="true">·</span>
+        <a href="cookies.html" style="color:inherit;text-decoration:underline">Cookies</a>
+      </div>
     </div>
   </footer>
+
+  <!-- WhatsApp floating button -->
+  <a href="https://wa.me/420775104074" class="wa-float" aria-label="WhatsApp" style="position:fixed;bottom:20px;right:80px;width:52px;height:52px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 12px rgba(0,0,0,.25);z-index:9998;transition:transform .2s" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.553 4.12 1.52 5.855L.054 23.52l5.805-1.52A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.82a9.78 9.78 0 01-5.27-1.4l-.378-.224-3.916 1.027 1.045-3.82-.247-.393A9.78 9.78 0 012.18 12c0-5.422 4.398-9.82 9.82-9.82 5.422 0 9.82 4.398 9.82 9.82 0 5.422-4.398 9.82-9.82 9.82z"/></svg>
+  </a>
+
+  <!-- Cookie banner -->
+  <div id="cookie-bar" style="position:fixed;bottom:0;left:0;right:0;background:#111;color:#fff;padding:12px 20px;font-size:13px;display:flex;align-items:center;justify-content:space-between;z-index:9999;gap:12px">
+    <span>Tento web používá cookies pro správné fungování. <a href="cookies.html" style="color:inherit;text-decoration:underline">Více info</a></span>
+    <button onclick="document.getElementById('cookie-bar').remove();localStorage.setItem('cookies-ok','1')" style="background:#fff;color:#111;border:none;padding:6px 16px;border-radius:4px;cursor:pointer;font-size:13px;white-space:nowrap">Rozumím</button>
+  </div>
+  <script>if(localStorage.getItem('cookies-ok'))document.getElementById('cookie-bar').remove()</script>
 
   <script>
     // Subtle fade-in on scroll — once only

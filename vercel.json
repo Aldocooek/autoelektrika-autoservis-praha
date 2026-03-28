@@ -24,6 +24,10 @@
           "value": "camera=(), microphone=(), geolocation=(), interest-cohort=()"
         },
         {
+          "key": "Last-Modified",
+          "value": "Fri, 28 Mar 2026 12:00:00 GMT"
+        },
+        {
           "key": "Strict-Transport-Security",
           "value": "max-age=63072000; includeSubDomains; preload"
         },
